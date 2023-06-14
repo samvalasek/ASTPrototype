@@ -8,21 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		6B03CA3D2A14C5650057D303 /* ASTPrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B03CA3C2A14C5650057D303 /* ASTPrototypeApp.swift */; };
-		6B03CA3F2A14C5650057D303 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B03CA3E2A14C5650057D303 /* ContentView.swift */; };
 		6B03CA412A14C5670057D303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B03CA402A14C5670057D303 /* Assets.xcassets */; };
 		6B03CA442A14C5670057D303 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B03CA432A14C5670057D303 /* Preview Assets.xcassets */; };
 		6B03CA4C2A14C6400057D303 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B03CA4B2A14C6400057D303 /* LoginView.swift */; };
+		6B0E4AB12A39A6510049B67C /* SideScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0E4AB02A39A6510049B67C /* SideScreenView.swift */; };
+		6B0E4AB52A39A7560049B67C /* MemorableIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0E4AB42A39A7560049B67C /* MemorableIconView.swift */; };
+		6B0E4ABA2A39A8610049B67C /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0E4AB92A39A8610049B67C /* NavigationBar.swift */; };
+		6B0E4ABC2A39AAFC0049B67C /* UsernameBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0E4ABB2A39AAFC0049B67C /* UsernameBar.swift */; };
+		6B0E4ABE2A39C01F0049B67C /* ASTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0E4ABD2A39C01F0049B67C /* ASTButton.swift */; };
+		6B0E4AC02A39C2720049B67C /* ASTButtonSFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0E4ABF2A39C2720049B67C /* ASTButtonSFSymbol.swift */; };
 		6B669F062A16269600CF72BC /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B669F052A16269600CF72BC /* SplashScreenView.swift */; };
+		6B669F082A1B609900CF72BC /* HelpAndFAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B669F072A1B609900CF72BC /* HelpAndFAQView.swift */; };
+		6B669F0A2A1E22E800CF72BC /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B669F092A1E22E800CF72BC /* HomeScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B03CA392A14C5650057D303 /* ASTPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASTPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B03CA3C2A14C5650057D303 /* ASTPrototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTPrototypeApp.swift; sourceTree = "<group>"; };
-		6B03CA3E2A14C5650057D303 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B03CA402A14C5670057D303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B03CA432A14C5670057D303 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B03CA4B2A14C6400057D303 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6B0E4AB02A39A6510049B67C /* SideScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideScreenView.swift; sourceTree = "<group>"; };
+		6B0E4AB42A39A7560049B67C /* MemorableIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorableIconView.swift; sourceTree = "<group>"; };
+		6B0E4AB92A39A8610049B67C /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		6B0E4ABB2A39AAFC0049B67C /* UsernameBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameBar.swift; sourceTree = "<group>"; };
+		6B0E4ABD2A39C01F0049B67C /* ASTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTButton.swift; sourceTree = "<group>"; };
+		6B0E4ABF2A39C2720049B67C /* ASTButtonSFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTButtonSFSymbol.swift; sourceTree = "<group>"; };
 		6B669F052A16269600CF72BC /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		6B669F072A1B609900CF72BC /* HelpAndFAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAndFAQView.swift; sourceTree = "<group>"; };
+		6B669F092A1E22E800CF72BC /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +69,9 @@
 		6B03CA3B2A14C5650057D303 /* ASTPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				6B0E4AB62A39A8250049B67C /* ViewUtil */,
 				6B03CA4A2A14C62A0057D303 /* Screens */,
 				6B03CA3C2A14C5650057D303 /* ASTPrototypeApp.swift */,
-				6B03CA3E2A14C5650057D303 /* ContentView.swift */,
 				6B03CA402A14C5670057D303 /* Assets.xcassets */,
 				6B03CA422A14C5670057D303 /* Preview Content */,
 			);
@@ -77,8 +91,23 @@
 			children = (
 				6B03CA4B2A14C6400057D303 /* LoginView.swift */,
 				6B669F052A16269600CF72BC /* SplashScreenView.swift */,
+				6B669F072A1B609900CF72BC /* HelpAndFAQView.swift */,
+				6B669F092A1E22E800CF72BC /* HomeScreenView.swift */,
+				6B0E4AB02A39A6510049B67C /* SideScreenView.swift */,
+				6B0E4AB42A39A7560049B67C /* MemorableIconView.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		6B0E4AB62A39A8250049B67C /* ViewUtil */ = {
+			isa = PBXGroup;
+			children = (
+				6B0E4AB92A39A8610049B67C /* NavigationBar.swift */,
+				6B0E4ABB2A39AAFC0049B67C /* UsernameBar.swift */,
+				6B0E4ABD2A39C01F0049B67C /* ASTButton.swift */,
+				6B0E4ABF2A39C2720049B67C /* ASTButtonSFSymbol.swift */,
+			);
+			path = ViewUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B0E4AC02A39C2720049B67C /* ASTButtonSFSymbol.swift in Sources */,
+				6B669F082A1B609900CF72BC /* HelpAndFAQView.swift in Sources */,
 				6B03CA4C2A14C6400057D303 /* LoginView.swift in Sources */,
-				6B03CA3F2A14C5650057D303 /* ContentView.swift in Sources */,
+				6B669F0A2A1E22E800CF72BC /* HomeScreenView.swift in Sources */,
+				6B0E4ABA2A39A8610049B67C /* NavigationBar.swift in Sources */,
 				6B03CA3D2A14C5650057D303 /* ASTPrototypeApp.swift in Sources */,
 				6B669F062A16269600CF72BC /* SplashScreenView.swift in Sources */,
+				6B0E4ABE2A39C01F0049B67C /* ASTButton.swift in Sources */,
+				6B0E4AB12A39A6510049B67C /* SideScreenView.swift in Sources */,
+				6B0E4AB52A39A7560049B67C /* MemorableIconView.swift in Sources */,
+				6B0E4ABC2A39AAFC0049B67C /* UsernameBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

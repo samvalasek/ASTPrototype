@@ -17,6 +17,7 @@ struct LoginView: View {
         }
     }
 }
+
 struct LoginMainView: View {
     var body: some View {
         ZStack {
@@ -64,36 +65,17 @@ struct LoginButtons: View {
             Button { //LoginWithQR button
                 //
             } label: {
-                HStack {
-                    Image(systemName: "qrcode")
-                    Text("Login with QR code")
-                        .fontWeight(.semibold)
-                }
-                .foregroundColor(Color.white)
+                ASTButtonSFSymbol(sfSymbol: "qrcode", sfSymbolColor: .white, bodyText: "Login with QR", foregroundColor: .white, backgroundColor: .black)
             }
-            .frame(width:300, height: 56)
-            .background(Color.black)
-            .cornerRadius(CGFloat(10))
-            .shadow(radius: 5)
             Button { //Support button
                 //
             } label: {
-                HStack {
-                    Image(systemName: "lifepreserver")
-                        .foregroundColor(.red)
-                    Text("Support & FAQ")
-                        .fontWeight(.semibold)
-                        .foregroundColor(Color.black)
+                ASTButtonSFSymbol(sfSymbol: "lifepreserver", sfSymbolColor: .red, bodyText: "Support & FAQ", foregroundColor: .black, backgroundColor: .white)
                 }
-            }
-            .frame(width:300, height: 56)
-            .background(Color.white)
-            .cornerRadius(CGFloat(10))
-            .shadow(radius: 5)
-        }.frame(height: 200)
+            }.frame(height: 200)
+        }
     
     }
-}
 
 
 struct LoginView_Previews: PreviewProvider {
