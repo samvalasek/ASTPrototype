@@ -14,17 +14,11 @@ struct ASTButton: View {
     
     var body: some View {
         Text(bodyText)
-            .font(.system(size: 20, weight: .semibold, design: .default))
+            .font(.system(size: 20, weight: .medium, design: .default))
             .frame(width: 300, height: 56)
             .background(backgroundColor)
             .foregroundColor(foregroundColor)
-            .cornerRadius(15)
+            .cornerRadius(12)
             .shadow(radius: 10)
-    }
-}
-
-struct ASTButton_Previews: PreviewProvider {
-    static var previews: some View {
-        ASTButton(bodyText: "Continue", foregroundColor: .white, backgroundColor: .black)
     }
 }

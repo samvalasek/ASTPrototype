@@ -17,7 +17,14 @@ struct HomeScreenView: View {
                 ScrollView {
                     UsernameBar(username: username)
                     Spacer()
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.white)
+                            .frame(width: 370, height: 250)
+                            .padding(.top, 10)
+                    }
                 }
+                .background(Color("backgroundGray"))
                 .navigationTitle("Home")
             .navigationBarTitleDisplayMode(.inline)
             }

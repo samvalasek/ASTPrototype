@@ -26,7 +26,7 @@ struct UsernameBar: View {
                         .frame(width: 60, height: 60)
                         // will eventually be a profile picture image
                     }
-                    .padding()
+                .padding(.horizontal, 30.0)
                 }
 
             }.frame(height:100)

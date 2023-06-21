@@ -23,18 +23,12 @@ struct ASTButtonSFSymbol: View {
             Image(systemName: sfSymbol)
                 .foregroundColor(sfSymbolColor)
             Text(bodyText)
-                .font(.system(size: 18, weight: .semibold, design: .default))
+                .font(.system(size: 18, weight: .medium, design: .default))
                 .foregroundColor(foregroundColor)
         }
             .frame(width: 300, height: 56)
             .background(backgroundColor)
-            .cornerRadius(15)
+            .cornerRadius(12)
             .shadow(radius: 10)
-    }
-}
-
-struct ASTButtonSFSymbol_Previews: PreviewProvider {
-    static var previews: some View {
-        ASTButtonSFSymbol(sfSymbol: "lifepreserver", sfSymbolColor: .red, bodyText: "Support & FAQ", foregroundColor: .black, backgroundColor: .white)
     }
 }

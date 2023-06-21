@@ -15,6 +15,7 @@ struct LoginView: View {
             Text("AST Dev Build 1, built by Sam Valasek")
                 .font(.footnote)
         }
+        .background(Color("backgroundGray"))
     }
 }
 
@@ -60,6 +61,7 @@ struct FactCarousel: View {
 }
 
 struct LoginButtons: View {
+    @State var isShowingSupportView: Bool = false
     var body: some View {
         VStack {
             Button { //LoginWithQR button

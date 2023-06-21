@@ -16,7 +16,6 @@ struct MemorableIconView: View {
                 UsernameBar(username: username)
                 Spacer()
                 Buttons()
-
             }
             .navigationTitle("Login")
             .navigationBarTitleDisplayMode(.inline)

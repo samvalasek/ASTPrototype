@@ -20,6 +20,10 @@
 		6B669F062A16269600CF72BC /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B669F052A16269600CF72BC /* SplashScreenView.swift */; };
 		6B669F082A1B609900CF72BC /* HelpAndFAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B669F072A1B609900CF72BC /* HelpAndFAQView.swift */; };
 		6B669F0A2A1E22E800CF72BC /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B669F092A1E22E800CF72BC /* HomeScreenView.swift */; };
+		6B6A3DB02A4061730028D131 /* FAQQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A3DAF2A4061730028D131 /* FAQQuestions.swift */; };
+		6B8B46B62A41E22D007BF495 /* QRScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B46B52A41E22D007BF495 /* QRScannerVC.swift */; };
+		6B8B46B92A41E27B007BF495 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B46B82A41E27B007BF495 /* QRCodeView.swift */; };
+		6B8B46BB2A431041007BF495 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B46BA2A431041007BF495 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +38,14 @@
 		6B0E4ABB2A39AAFC0049B67C /* UsernameBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameBar.swift; sourceTree = "<group>"; };
 		6B0E4ABD2A39C01F0049B67C /* ASTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTButton.swift; sourceTree = "<group>"; };
 		6B0E4ABF2A39C2720049B67C /* ASTButtonSFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTButtonSFSymbol.swift; sourceTree = "<group>"; };
+		6B0E4AC32A39C9C80049B67C /* DesignGuidelines.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DesignGuidelines.md; sourceTree = "<group>"; };
 		6B669F052A16269600CF72BC /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		6B669F072A1B609900CF72BC /* HelpAndFAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAndFAQView.swift; sourceTree = "<group>"; };
 		6B669F092A1E22E800CF72BC /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		6B6A3DAF2A4061730028D131 /* FAQQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQQuestions.swift; sourceTree = "<group>"; };
+		6B8B46B52A41E22D007BF495 /* QRScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerVC.swift; sourceTree = "<group>"; };
+		6B8B46B82A41E27B007BF495 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		6B8B46BA2A431041007BF495 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +78,7 @@
 		6B03CA3B2A14C5650057D303 /* ASTPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				6B0E4AC22A39C9AD0049B67C /* Docs */,
 				6B0E4AB62A39A8250049B67C /* ViewUtil */,
 				6B03CA4A2A14C62A0057D303 /* Screens */,
 				6B03CA3C2A14C5650057D303 /* ASTPrototypeApp.swift */,
@@ -89,6 +99,7 @@
 		6B03CA4A2A14C62A0057D303 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				6B8B46B42A41E21E007BF495 /* QRCodeScanner */,
 				6B03CA4B2A14C6400057D303 /* LoginView.swift */,
 				6B669F052A16269600CF72BC /* SplashScreenView.swift */,
 				6B669F072A1B609900CF72BC /* HelpAndFAQView.swift */,
@@ -106,8 +117,35 @@
 				6B0E4ABB2A39AAFC0049B67C /* UsernameBar.swift */,
 				6B0E4ABD2A39C01F0049B67C /* ASTButton.swift */,
 				6B0E4ABF2A39C2720049B67C /* ASTButtonSFSymbol.swift */,
+				6B6A3DAF2A4061730028D131 /* FAQQuestions.swift */,
 			);
 			path = ViewUtil;
+			sourceTree = "<group>";
+		};
+		6B0E4AC22A39C9AD0049B67C /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				6B0E4AC32A39C9C80049B67C /* DesignGuidelines.md */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		6B8B46B42A41E21E007BF495 /* QRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B46B72A41E256007BF495 /* QRScannerScreen */,
+				6B8B46B52A41E22D007BF495 /* QRScannerVC.swift */,
+			);
+			path = QRCodeScanner;
+			sourceTree = "<group>";
+		};
+		6B8B46B72A41E256007BF495 /* QRScannerScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B46B82A41E27B007BF495 /* QRCodeView.swift */,
+				6B8B46BA2A431041007BF495 /* ScannerView.swift */,
+			);
+			path = QRScannerScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,14 +218,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6A3DB02A4061730028D131 /* FAQQuestions.swift in Sources */,
 				6B0E4AC02A39C2720049B67C /* ASTButtonSFSymbol.swift in Sources */,
 				6B669F082A1B609900CF72BC /* HelpAndFAQView.swift in Sources */,
+				6B8B46B62A41E22D007BF495 /* QRScannerVC.swift in Sources */,
 				6B03CA4C2A14C6400057D303 /* LoginView.swift in Sources */,
 				6B669F0A2A1E22E800CF72BC /* HomeScreenView.swift in Sources */,
 				6B0E4ABA2A39A8610049B67C /* NavigationBar.swift in Sources */,
 				6B03CA3D2A14C5650057D303 /* ASTPrototypeApp.swift in Sources */,
 				6B669F062A16269600CF72BC /* SplashScreenView.swift in Sources */,
+				6B8B46BB2A431041007BF495 /* ScannerView.swift in Sources */,
 				6B0E4ABE2A39C01F0049B67C /* ASTButton.swift in Sources */,
+				6B8B46B92A41E27B007BF495 /* QRCodeView.swift in Sources */,
 				6B0E4AB12A39A6510049B67C /* SideScreenView.swift in Sources */,
 				6B0E4AB52A39A7560049B67C /* MemorableIconView.swift in Sources */,
 				6B0E4ABC2A39AAFC0049B67C /* UsernameBar.swift in Sources */,
@@ -324,6 +366,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = AST;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -357,6 +400,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = AST;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
